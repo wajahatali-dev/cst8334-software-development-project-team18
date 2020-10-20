@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tutor.radar">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TutorApplication"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".TutorProfileActivity" android:theme="@style/Theme.TutorApplication.NoActionBar"  />
+        <activity android:name=".SearchSubjectsActivity" android:theme="@style/Theme.TutorApplication.NoActionBar" />
+        <activity android:name=".ComingSoonActivity" android:theme="@style/Theme.TutorApplication.NoActionBar" />
+        <activity
+            android:name=".RegisterInstituteActivity"
+            android:theme="@style/Theme.TutorApplication.NoActionBar" />
+        <activity
+            android:name=".RegisterAdminActivity"
+            android:theme="@style/Theme.TutorApplication.NoActionBar" />
+        <activity
+            android:name=".RegisterTutorActivity"
+            android:theme="@style/Theme.TutorApplication.NoActionBar" />
+        <activity
+            android:name=".RegisterStudentActivity"
+            android:theme="@style/Theme.TutorApplication.NoActionBar" />
+        <activity
+            android:name=".LoginActivtiy"
+            android:theme="@style/Theme.TutorApplication.NoActionBar" />
+        <activity
+            android:name=".OptionsActivity"
+            android:theme="@style/Theme.TutorApplication.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TutorApplication.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
